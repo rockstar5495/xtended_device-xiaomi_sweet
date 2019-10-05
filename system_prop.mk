@@ -17,4 +17,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Enable blurs
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1  
+    ro.sf.blurs_are_expensive=1
+
+# ADB on boot
+    ro.secure=0 \
+    ro.adb.secure=1 \
+    ro.debuggable=1 \
+    persist.service.adb.enable=1 \
+    persist.sys.usb.config=adb,mtp
