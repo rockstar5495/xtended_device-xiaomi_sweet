@@ -199,3 +199,7 @@ PRODUCT_PACKAGES += \
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    Sounds
