@@ -7,3 +7,6 @@ type vendor_sysfs_graphics, sysfs_type, fs_type;
 
 # Smart Charging
 type vendor_sysfs_battery_supply, sysfs_type, fs_type;
+
+# QS System Info
+type vendor_sysfs_kgsl, sysfs_type, fs_type;
