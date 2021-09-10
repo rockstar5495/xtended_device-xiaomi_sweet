@@ -162,15 +162,15 @@ void vendor_load_properties() {
         if (sku == "std") {
             model = "M2101K6P";
             device = "sweetin";
-            fingerprint = "Redmi/sweetin/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
-            description = "sweetin-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
+            fingerprint = "Redmi/sweetin/sweetin:11/RKQ1.200826.002/V12.5.8.0.RKFINXM:user/release-keys";
+            description = "sweetin-user 11 RKQ1.200826.002 V12.5.8.0.RKFINXM release-keys";
             marketname = "Redmi Note 10 Pro";
             mod_device = "sweetin_in_global";
         } else {
                 model = "M2101K6I";
                 device = "sweetin";
-                fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.0.6.0.RKFINXM:user/release-keys";
-                description = "sweetinpro-user 11 RKQ1.200826.002 V12.0.6.0.RKFINXM release-keys";
+                fingerprint = "Redmi/sweetinpro/sweetin:11/RKQ1.200826.002/V12.5.8.0.RKFINXM:user/release-keys";
+                description = "sweetinpro-user 11 RKQ1.200826.002 V12.5.8.0.RKFINXM release-keys";
                 marketname = "Redmi Note 10 Pro Max";
                 mod_device = "sweetin_in_global";
             }
