@@ -161,8 +161,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.sweet \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power-service.sweet
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
