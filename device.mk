@@ -17,6 +17,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 
+# ANXCamera
+$(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
+
 # The first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 30
 
