@@ -25,15 +25,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.debuggable=1 \
     persist.service.adb.enable=1 \
     persist.sys.usb.config=adb,mtp
-
-# RIL
-PRODUCT_PROPERTY_OVERRIDES += \
-  persist.dbg.volte_avail_ovr=1 \
-  persist.dbg.vt_avail_ovr=1 \
-  persist.dbg.wfc_avail_ovr=1 \
-  persist.vendor.radio.enable_temp_dds=true \
-  persist.vendor.radio.report_codec=1 \
-  persist.vendor.ims.disableADBLogs=1 \
-  persist.vendor.ims.disableDebugLogs=1 \
-  persist.vendor.ims.disableIMSLogs=1 \
-  persist.vendor.ims.disableQXDMLogs=1
